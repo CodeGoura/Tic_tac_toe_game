@@ -1,0 +1,77 @@
+/* import font  */
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Red+Hat+Display&display=swap");
+/* reset defult css  */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #283618;
+  text-align: center;
+}
+h1 {
+  color: #fefae0;
+  margin-top: 2%;
+}
+.container {
+  height: 70%vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 1.001vmin;
+}
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  background-color: #d6ccc2;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  font-size: 8vmin;
+  font-family: "Red Hat Display", sans-serif;
+  color: #d90429;
+}
+#reset {
+  padding: 0.3rem 1rem;
+  font-size: 1.25rem;
+  font-family: "Alkatra", system-ui;
+  border-radius: 1rem;
+  border: none;
+  background-color: #000814;
+  color: #fff;
+}
+#new {
+  padding: 0.3rem 1rem;
+  font-size: 1.25rem;
+  font-family: "Alkatra", system-ui;
+  border-radius: 1rem;
+  border: none;
+  background-color: #000814;
+  color: #fff;
+}
+#msg {
+  color: #ffe5ec;
+  font-family: "Alkatra", system-ui;
+  font-size: 5vmin;
+}
+.msg-container {
+  height: 100vh;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10rem;
+}
+.hide {
+  display: none;
+}
